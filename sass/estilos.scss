@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+    line-height: 2em;
+}
+
+body {
+    background: #4b778d;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+}
+
+.menu a {
+    text-decoration: none; //quitar decoracion por defecto
+    color: #28b5b5;
+    float: left; //se ponen a la izq las cajas
+    width: 25%;
+    text-align: center;
+    padding: 2em;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #d2e69c;
+}
+
+h3 {
+    color: #8fd9a8;
+}
+
+footer {
+    background: #d2e69c;
+    h4 {
+        text-align: center;
+        color: #000000;
+    }
+}
+
+h4 {
+    color: #8fd9a8;
+}
+
+.vPrincipal {
+    width: 100vw; //para que el video tome todo el ancho de pantalla
+}
+
+.tips {
+    margin: 20px;
+    width: 50vw;
+}
+
+.dqvEsto {
+    text-align: right;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}

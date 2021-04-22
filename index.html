@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Virginia Gutiérrez">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+    <title>DIARIO DE MIS JUEGOS INDIE</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="menu">
+            <a href="index.html">DIARIO DE DESARROLLO</a>
+            <a href="sobremi.html">QUIEN SOY</a>
+            <a href="miproyecto.html">MIS JUEGOS</a>
+            <a href="galeria.html">GALERIA</a>
+        </div>
+    </div>
+
+
+    <video class="vPrincipal" onloadstart="this.muted=true" autoplay loop>
+    <source src="videos/H-Furia Noche.mp4">
+    </video>
+
+    <div class="dqvEsto">
+        <h3>¿DE QUÉ VA ESTO?</h3>
+        Esta página nació, de la necesidad de llevar una especie de historial, de los juegos que estoy actualmente desarrollando. Algunas de las personas de mi entorno más cercano, me instaron a llevar adelante esta página, ya que me veían entusiasmada con mis
+        metas personales. Más allá de ser un simple Hobbie, para mi es una gran satisfacción, puesto que con los años me he dado cuenta que me gusta más producir que consumir. Aunque adoro los videojuegos y probablemente los juegue hasta el día en que
+        muera, me di cuenta que disfruto aún más de desarrollar mis propios juegos, en este momento me encuentro desarrollando <b>H-Furia</b>( el juego que ves en el video que aparece en la cabecera de la página, cuya historia viene de mi WebComic
+        con el mismo nombre( H-Furia )), y <b>Damosefe</b>, ambos juegos de mi completa autoría.
+        <br>
+    </div>
+
+    <div class="tips">
+        <center>
+            <h3><b>TIPS PARA UNITY:</b></h3>
+        </center><br>
+        <p>
+            <h4>PARTICLE SYSTEM PARA MAGIA O PROYECTIL: </h4>
+            En Unity creamos un objeto vacío(GameObject --> Create empty) y le ponemos como nombre particleSProyectil(o como quieras identificarlo), dentro de ese objeto agregamos las particle system. Ahora nos vamos a photoshop y en una hoja de 1000 X 1000 px pintamos
+            un fondo negro, creamos otro layer, elegimos el pincel de nuestra preferencia y con color blanco pintamos nuestra magia/proyectil a nuestro gusto, una vez terminado, quitamos el fondo negro, y guardamos nuestro dibujo como proyectil.png.(Recordá
+            achicar la hoja antes de guardarla para quitar espacios en blanco sobrantes), volvemos a Unity, y creamos una carpeta llamadas proyectiles, dentro colocamos nuestro dibujo, ahora creamos dentro de esa carpeta un nuevo material, lo nombramos
+            como proyectil, y en el inspector en la parte de shader, elegimos legacy --> Shaders--> particles --> Additive. Arrastramos nuestro dibujo hacia el inspector al recuadro de particle texture, y a su vez ese material que acabamos de crear lo
+            arrastramos a nuestro proyecto dentro de las particle system. Volvemos al inspector y le quitamos la palomita a shape, ahora vamos a Start Size y elegimos Random Between two constants. Marcamos también 3D start size, modificamos los valores
+            de X, Z e Y según la forma de nuestro objeto(en esta parte tu tienes que ir viendo que numero ponerles a cada uno (X-Y-Z) ya que la forma que dibujaste no será igual a la mía, en mi ejemplo me quedaron así: X= 9 Y=5 Z=10 y debajo de izquierda
+            a derecha 11, 5 y 10. Ahora elegimos Rotation over lifetime, marcamos separate axes, dejamos en cero la Z y ponemos 120 en X, para que nuestro objeto rote en la dirección deseada, en Emission ponemos Rate over time en mi caso 4, en Start color
+            quitamos la opacidad para que no se sobrecargue de imágenes nuestra magia, ¿cuánta opacidad quito?, como vengo diciendo, va a depender de tu gusto, si más o menos sobrecargado, depende de como quieras que se vea, en Renderer ponemos en 3 las
+            Max particle size y en billboard alignment elegimos local, así podremos rotar a nuestro dibujo y no verlo como una imágen acartonada que se ve desde todos los ángulos igual, en Start lifetime elegimos Random between two constants, en mi caso
+            coloco 1 y 2, le dará más velocidad a nuestro proyectil, pero quedará más invisible (por así decirlo), por lo que debemos volver a reacomodar la opacidad en nuestro Start Color, darle entonces balance entre start lifetime y la opacidad en
+            start color, estando entonces en Start Color elegimos Random between two colors y elegimos el color que queramos para nuestra magia, nos vamos entonces a color over lifetime y elegimos ese mismo color ahí también, y ya podemos decir que tenemos
+            listo nuestro proyectil/magia.
+        </P><br>
+        <p>Así me quedó a mi el proyectil que hice (le di forma de flecha) y le agregué otro sistema de partículas para que quede más bonito ;)
+        </p><br>
+        <div class="divParticulas"><video class="videoParticulas" onloadstart="this.muted=true" autoplay loop> <source src="videos/flecha.mp4"></video><br></div>
+    </div>
+    <div class="extras">
+        <h3><b>EXTRAS</b></h3>
+        <p>Acá comparto unas de las animaciones que hice mientras estaba aprendiendo a animar, algunas de las que hice (como esta) las subí a mi canal de Youtube. ¿Quién no ha sido, soñando, su personaje favorito?, de eso va este video, un personaje y sus
+            amigos, siendo en sus sueños, otras personas.
+        </p>
+        <br>
+        <video class="animacion" onloadstart="this.muted=true" autoplay loop> <source src="videos/amvDamosefe.mp4"></video>
+        <br><br>
+        <h3>UNITY EN 2D</h3>
+        <p>¿Y pensaste que esto quedaba acá?, no amigo/a, porque también estoy incursionando en el mundo del 2D, H-Furia tiene una parte de su historia en dos dimensiones, para conocer la historia completa vas a tener que jugarlos en orden. Cuando salgan,
+            claro está, ahora son solo prototipos.
+        </p>
+        <br>
+        <div class="divParticulas"><video class="videoParticulas" onloadstart="this.muted=true" autoplay loop> <source src="videos/h-furia2D.mp4"></video><br></div>
+    </div>
+    <br>
+    <footer class="piesito">
+        <br>
+        <h4 class="firma"> ©VIRGINIA GUTIÉRREZ</h4>
+    </footer>
+
+</body>
+
+</html>

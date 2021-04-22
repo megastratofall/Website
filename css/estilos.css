@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+    line-height: 2em;
+}
+
+.home {
+    margin: auto;
+    margin-top: 20px;
+}
+
+body {
+    background: #4b778d;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.menu a {
+    display: flexbox;
+    text-decoration: none;
+    color: #28b5b5;
+    float: left;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    padding: 1em 1em;
+    margin: auto;
+    hyphens: auto;
+    word-break: break-word;
+    transition: font-size 0.2s;
+}
+
+.menu a:hover {
+    background-color: #d2e69c;
+    font-size: 1.1em;
+}
+
+.dqvEsto {
+    padding: 1em 1em;
+    text-align: left;
+    position: relative;
+}
+
+.tips {
+    padding: 1em 1em;
+    text-align: left;
+    position: relative;
+}
+
+.divParticulas {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.videoParticulas {
+    width: 100%;
+    position: absolute;
+    border-radius: 20%;
+}
+
+.extras {
+    padding: 1em 1em;
+    text-align: left;
+}
+
+.animacion {
+    width: 75%;
+    border-radius: 25%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h3 {
+    color: #8fd9a8;
+}
+
+footer {
+    background: #d2e69c;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+}
+
+footer h4 {
+    text-align: center;
+    color: #000000;
+}
+
+h4 {
+    color: #8fd9a8;
+}
+
+.vPrincipal {
+    margin-top: 70px;
+    width: 100vw;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}
+
+
+/*# sourceMappingURL=estilos.css.map */
+
+
+/* sobre mí*/
+
+.contenedorfoto {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 0;
+}
+
+.foto {
+    border-radius: 25%;
+    position: absolute;
+    margin-left: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.soy1,
+.soy2,
+.soy3 {
+    padding: 1em;
+    text-align: left;
+    margin-left: 0;
+}
+
+
+/*mis juegos */
+
+.mp {
+    padding: 1em;
+    text-align: left;
+}
+
+.hFuriavideo {
+    width: 100%;
+    border-radius: 25%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.damosefevideo {
+    width: 100%;
+    border-radius: 25%;
+    margin: auto;
+    right: 0;
+}
+
+.h2s {
+    color: #8fd9a8;
+}
+
+
+/*galeria*/
+
+.pgaleria {
+    padding: 1em;
+    text-align: left;
+}

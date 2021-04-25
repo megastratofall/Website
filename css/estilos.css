@@ -126,7 +126,7 @@ img {
 }
 
 .foto {
-    border-radius: 100%;
+    border-radius: 50%;
     position: absolute;
     margin-left: 10px;
     top: 0;
